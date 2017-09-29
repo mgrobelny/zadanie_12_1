@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+body {
+	background-color: black;
+	background-image: url('http://topdycha.pl/wp-content/uploads/2013/10/Chuck-Norris-wzrost-174.jpg');
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: 90% 10%;
+	background-attachment:fixed;
+}
+h1 {
+	color: red;
+	font-size: 55px;
+	font-family: 'Monoton', cursive;
+}
+div.container {
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+}
+div.inner {
+	width: 70%;
+	height: auto;
+}
+p {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Mukta', sans-serif;
+	margin-top: 30px;
+}
+button {
+	border: 0;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-left: 20vw;
+	background-color: white;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 5%;
+	font-size: 20px;
+}
+button:hover {
+	background-color: red;
+	color: white;
+	outline: none;
+	transition: 0.9s;
+}
+button:focus {
+	outline: none;
+}
