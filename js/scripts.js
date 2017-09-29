@@ -4,7 +4,7 @@ var url = 'http://api.icndb.com/jokes/random';
 
 var button = document.getElementById('get-joke');
 
-//window.onload = function(){getJoke();};
+window.onload = function(){getJoke();};
 
 button.addEventListener('click', function() {
 	getJoke();
